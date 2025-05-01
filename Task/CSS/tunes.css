@@ -1,0 +1,251 @@
+*{
+    font-family: 'PT Sans', sans-serif;
+}
+
+#fdiv{
+
+    border: 1px solid black;
+    display: flex;
+    background-color: rgb(51, 51, 51);
+    width: 100%;
+    padding: 10px;
+    font-family: 'PT Sans', sans-serif;
+    position: fixed;
+    gap: 5px;
+    
+}
+
+.navs{
+    border: 1px solid black;
+    color: white;
+    width: 100px;        
+}
+#nav1:hover{
+    background-color:rgb(51, 51, 51);
+    
+     border-bottom-width: 30px;
+    
+}
+
+#sdiv{
+    border: 1px solid black;
+    height: 100vh;
+    background-image: url("https://jolly-kalam-23776e.netlify.app/mytunes/img/showcase.jpeg");
+    background-size: 100%;
+    background-position: 0px;
+    font-family: 'PT Sans', sans-serif;
+    color: white;   
+}
+#content{
+    margin-top: 250px;
+    text-align: center;
+    width: 1300px;
+    margin-left: 150px;
+    height: 300px;
+   
+}
+#head{
+    font-size: xx-large;
+}
+#head2{
+    font-size:xx-large ;
+}
+#para1{
+    font-size: large;
+}
+
+#my{
+    text-align: center;
+    margin-top: 200px;
+}
+
+
+body{
+    margin: 0px;
+    
+    font-family: 'PT Sans', sans-serif;
+}
+#seconddiv{
+    border: 1px solid black;
+    min-height: 100vh;
+    background-color: rgb(37, 37, 41);
+    color: white;
+    font-family: ' Sans', sans-serif;
+}
+#content1{
+    text-align: center;
+    font-size: xx-large;
+}
+#content2{
+    text-align: center;
+    font-size: x-large;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+    line-height: 35px;
+}
+#box{
+    border: 1px solid black;
+    width: 200px;
+    font-size: large;
+    margin-left: 600px;
+    padding: 15px;
+    background-color: brown;   
+}
+#box:hover{
+    background-color: red;
+}
+#para2{
+    margin-left: 500px ;
+}
+
+#img{
+    min-height: 100vh;
+    background-image: url("https://jolly-kalam-23776e.netlify.app/mytunes/img/mockup1.png");
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    margin-right: 220px;
+    margin-left: 120px;
+}
+
+#tdiv{
+    border: 1px  black;
+    min-height:100vh ;
+    text-align: center;
+    
+}
+#content3{
+    border: 1px  black;
+    height: 300px;
+    margin-top: 70px;
+    margin-left: 200px;
+    margin-right: 200px;
+    
+    
+}
+#thead{
+    color: rgb(51, 51, 82);
+    font-size: xx-large;
+}
+#tpara{
+    color: rgb(51, 51, 82);
+    line-height: 40px;
+    font-size: large;
+}
+#tpara2{
+    border: 1px  black;
+    margin-left: 580px;
+    margin-right: 580px;
+    padding: 20px;
+    background-color: rgb(16, 48, 99);
+    color: white;
+    
+}
+#tpara2:hover{
+    background-color: darkblue;
+    
+}
+#picture1{
+   border: 1px  black;
+   height: 100vh;
+   background-image: url("https://jolly-kalam-23776e.netlify.app/mytunes/img/mockup2.png");
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+   margin-left: 200px;
+   margin-right: 200px;
+   margin-bottom: 30px;
+}
+#fodiv{
+    border: 1px solid black;
+    height: 70vh;
+    background-image: url("https://jolly-kalam-23776e.netlify.app/mytunes/img/section-bg.jpeg");
+    background-size: 100% 100% ;
+}
+#content4{
+    border: 1px  white;
+    margin-top: 190px;
+    text-align: center;
+    height: 300px;
+    color: white;
+    margin-left: 180px;
+    margin-right: 180px;
+    font-size: 20.8;
+    font-family: 'PT Sans', sans-serif;
+
+}
+#fohead{
+ 
+  font-size: xx-large;
+}
+#para5{
+    font-size:large ;
+    line-height: 40px;
+}
+
+#fidiv{
+    border: 1px  black;
+    min-height: 70vh;
+    display: flex;
+    background-color: whitesmoke;
+    
+}
+.classa{
+    border: 1px black;
+    height: 500px;
+    
+}
+#picture2{
+    border: 1px  black;
+    background-image: url("https://jolly-kalam-23776e.netlify.app/mytunes/img/cards.png");
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    width: 120%;
+    margin: 40px;
+    margin-left: 200px;   
+}
+#content5{
+    border: 1px  ;
+    margin-top: 40px;
+    margin-right: 200px;
+      
+}
+#para7{
+
+}
+
+#sidiv{
+    border: 1px ;
+    height: 35vh;
+    background-color: rgb(37, 37, 41);
+    display: flex;
+    gap: 29px;
+}
+/* #sfdiv{
+    border: 1px solid white;
+    height: 250px;
+    width: 700px;
+    margin-left: 10px;   
+} */
+.tabdivs{
+   border: 1px solid black;
+   color: white;
+   height: 250px;
+    margin-top: 15px;
+    width: 250px;
+   
+}
+.all{
+    font-size: 20px;
+}
+#tabdiv1{
+    margin-left: 300px;
+}
+#sediv{
+    border: 1px solid rgb(51, 51, 51) ;
+    height: 8vh;
+    background-color: rgb(51, 51, 51);     
+}
+#para6{
+    color: white;
+    text-align: center;
+}

@@ -1,0 +1,25 @@
+
+#hdiv{
+    border: 1px solid black;
+    text-align: center; 
+}
+
+.cl{
+    border: 1px solid black;
+    display: inline-block; 
+    text-align: center;
+     width: 328.7px;
+     background-color: aqua;
+}
+#fdiv{
+    border: 1px solid black;
+    height: 100vh;
+}
+#nav{
+    border: 1px solid black;
+   line-height: 70px;
+   
+}
+
+
+

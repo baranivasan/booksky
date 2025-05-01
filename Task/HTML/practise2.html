@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    A:<input type="text"  id="box1">
+    B:<input type="text"  id="box2">
+    <br> <br>
+    <button onclick="call()"> Add</button> <br><br>
+    <p id="result"></p>
+
+    <script>
+
+        function call(){
+            var A=Number(document.getElementById("box1").value)
+            var B=Number(document.getElementById("box2").value)
+            var result= document.getElementById("result")
+
+
+            var add=A+B
+            result.textContent=`Result: `+add;
+            // console.log(add)
+
+        }
+    </script>
+
+    
+</body>
+</html>

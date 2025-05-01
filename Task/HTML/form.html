@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <fieldset>
+        <legend><h1>Form</h1></legend>
+        <form action="hii">
+            <label for="fname">FullName &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="text" name="user-funame" id="fname" maxlength="20" pattern="[a-z]" pattern="[A-Z]" >(max 20 char a-z and A-Z)
+            <br><br>
+            <label for="lname">LastName &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="text" name="user-lname" id="lname" maxlength="20">(max 20 char a-z and A-Z)
+            <br><br>
+            <label for="dob">Date of Birth &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="date" name="user-dob" id="dob">
+            <br><br>
+            <label for="male">GENDER &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="radio" name="user-gender" id="male" value="male">Male
+            <input type="radio" name="user-gender" id="female" value="female">Female
+            <br><br>
+            <label for="email">EMAIL ID &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="email" name="user-email" id="email">
+            <br><br>
+            <label for="mobile">MOBILE NO &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="tel" name="user-mobilenumber" id="mnumber">
+            <br><br>
+            <label for="address">ADDRESS &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <textarea name="user-address" id="address" cols="30" rows="10"></textarea>
+            <br><br>
+            <label for="city">CITY &nbsp:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="text" name="user-city" id="city" maxlength="20">
+            <br><br>
+            <label for="pincode">PIN CODE &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="text" name="user-pincode" id="pincode" maxlength="6" >(6 digit pin)
+            <br><br>
+            <label for="state">STATE &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="text" name="user-state" id="state">
+            <br><br>
+            <label for="country">COUNTRY &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="text" name="user-country" id="country">
+            <br><br>
+            <label for="hobbies">HOBBIES &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="checkbox" name="user-hobbies" id="hobbies" value="hobbies">Drawing
+            <input type="checkbox" name="user-hobbies2" id="hobbies" value="hobbies">Singing
+            <input type="checkbox" name="user-hobbies3" id="hobbies" value="hobbies">Dancing
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="others" id="others">Others
+            <input type="text" name="user-fill" id="others">
+            <br><br>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>        </th>
+                        <th>SI.no</th>
+                        <th>Examination</th>
+                        <th>Board</th>
+                        <th>Percentage</th>
+                        <th>Year of passing</th>
+                    </tr>
+                </thead>
+                
+                <tr>
+                    <td rowspan="5">Qualification &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                    <td>01</td>
+                    <td>Class X</td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    
+                    <td>02</td>
+                    <td>Class II</td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    
+                    <td>03</td>
+                    <td>Graduation</td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                   
+                    <td>04</td>
+                    <td>Master</td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+            </table>
+
+            <label for="courses">COURSES <br> APPLIED FOR &nbsp;&nbsp;&nbsp;&nbsp; </label>
+            <input type="checkbox" name="user-BCA" id="courses">BCA
+            <input type="checkbox" name="user-bcom" id="courses">B.com
+            <input type="checkbox" name="user-bsc" id="courses">B.sc
+            <input type="checkbox" name="user-ba" id="courses">B.A
+            <br><br>
+
+            <button><center>submit</center></button>
+            <button><center>reset</center></button>
+            
+            
+        </form>
+    </fieldset>
+</body>
+</html>

@@ -1,0 +1,24 @@
+#grid-container{
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px 200px 200px;
+}
+.grid-item{
+    border: 1px solid black;
+    text-align: center;
+    font-size: xx-large;
+}
+#item6{
+    grid-column: 4/5;
+}
+#item8{
+    grid-column: 4/5;
+}
+#grid-container>section:nth-child(odd){
+    background-color: yellow;
+}
+#grid-container>section:nth-child(even){
+    background-color: blue;
+    
+}

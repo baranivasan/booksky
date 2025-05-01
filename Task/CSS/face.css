@@ -1,0 +1,88 @@
+#mdiv{
+    border: 1px  black;
+    border-radius: 250px;
+    height:450px;
+    width: 450px;
+    margin-left: 200px;
+    margin-top: 50px;
+    background-color: yellow;
+}
+.adiv{
+   border: 1px  black;
+    width: 170px;
+   display: inline-block;
+   height: 110px;
+   margin-top: 90px;
+   margin-left: 40px;
+   border-radius: 180%;
+   background-color: white;
+   position: relative;
+     
+}
+/* #sdiv{
+    width:180px ;
+} */
+.sediv{
+    border: 1px  black;
+    width: 149px ;
+    height: 105px;
+    border-radius:80%; 
+    margin-top: 3px;
+    background-color: lightcoral;
+    position: absolute;
+    
+    
+}
+.indiv{
+    border: 1px  black;
+    height: 45px;
+    width: 45px;
+    border-radius: 30px;
+    margin-left: 0%; 
+    margin-top: 40px;
+    background-color:black;
+    animation-duration: 7s;
+    animation-name: move;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-timing-function: linear;
+}
+@keyframes move {
+    0%{
+      left: 0px;
+      top: 0px;
+      
+    }
+    25%{
+        left: 50px;
+        top: 20px; 
+    }
+    50%{
+        left: 75px;
+        top: 10px;
+    }
+    75%{
+        left: 90px;
+        top: 10px;
+        bottom: 130px;
+        
+    }
+    100%{
+        left: 0px;
+        top: 0px;
+        bottom: 50px;
+        
+    }
+}
+#mouth{
+    border: 1px  black;
+    height: 75px;
+    width: 150px;
+    margin-left: 160px;
+    margin-top: 100px;
+    background-color: white;
+    border-radius: 50%;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQi0g0wgKxg3-bAmv5euFMb0X0iZ_7FX9tyXp42ngEA2JPn73yAzDTuYdmE6HQI1vlXaWs&usqp=CAU");
+    background-size: 100%   ;
+    background-repeat: no-repeat;
+}

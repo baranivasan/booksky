@@ -1,0 +1,14 @@
+#mdiv{
+    border: 1px solid black;
+    background-image: url("../brown.jpg");
+    width: 100%;
+    height: 100vh;
+    opacity: 50%;
+    position: absolute; 
+       
+}
+#head{ 
+   text-align: center; 
+   padding-top: 200px; 
+}
+

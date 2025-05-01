@@ -1,0 +1,39 @@
+#fdiv{
+  border: 1px solid black;
+  height: 100vh;
+  
+}
+#sdiv{
+    border: 1px solid black;
+    margin: 100px 500px 100px 500px;
+    height: 500px;
+    border-radius: 10px;
+    background-color: cadetblue;
+}
+#out{
+    border: 1px solid green;
+    margin: 30px;
+    height: 50px;
+    background-color: lightcyan;
+}
+#gridinp{
+    border: 1px ;
+    display: grid;
+    margin: 30px;
+    height: 340px;
+    gap: 20px;
+    grid-template-columns: auto auto auto auto auto;
+    
+}
+#gridinp>.grid-item{
+   border: 1px solid black;
+   text-align: center;
+   margin-top: 1px;
+   padding-top: 10px;
+   border-radius: 10px;
+}
+.grid-item:hover{
+    background-color: tomato;
+    color: beige;
+}
+

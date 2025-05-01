@@ -1,0 +1,156 @@
+#mdiv{
+    border: 1px solid;
+    margin: 100px;
+    margin-top: 150px;
+    width: 400px;
+    margin-left: 600px;
+    height: 250px;
+    margin-right: 400px;
+}
+.size{
+    border: 1px solid;
+    width: 20px;
+    height: 150px;
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 100px;  
+    background-color: red;
+}
+@keyframes music1 {
+    0%{
+        top: 10px;
+        height: 30px;  
+    }  
+    25%{
+        top: 25px;
+        bottom: 0px;
+        background-color: yellow;
+    } 
+    75%{
+        top: 0px;
+        height:0px ;
+    } 
+      
+}
+@keyframes music2 {
+    0%{
+        top: 10px;
+
+        
+        height: 120px;
+    }  
+    25%{
+        top: 25px;
+        bottom: 0px; 
+        background-color: blueviolet;
+    } 
+    75%{
+        top: 0px;
+        height:30px ;  
+    } 
+          
+}
+@keyframes music3 {
+    0%{
+        top: 0px;
+        height: 0px;
+    }  
+    25%{
+        top: 25px;
+        bottom: 0px;
+        background-color: yellowgreen;
+    } 
+    75%{
+        top: 300px;
+        height:60px ;
+    } 
+                 
+}
+@keyframes music4 {
+    0%{
+        top: 10px;
+        height: 120px;
+    }  
+    25%{
+        top: 25px;
+        bottom: 0px;
+        background-color: yellow;
+    } 
+    75%{
+        top: 40px;
+        height:0px ;  
+    } 
+                  
+} 
+@keyframes music5 {
+    0%{
+        top: 10px;
+        height: 120px;
+    }  
+    25%{
+        top: 25px;
+        bottom: 0px;
+        background-color: yellow;
+    } 
+    75%{
+        top: 80px;
+        height:0px ; 
+        background-color: olivedrab; 
+    } 
+                  
+} 
+                
+
+/* #fidiv{
+    
+    animation-duration: 1s;
+    animation-name: music1;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+} */
+#fdiv{
+    margin-left: 50px;
+    animation-duration: 1s;
+    animation-name: music1;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in; 
+    animation-direction: alternate;  
+}
+#sdiv{
+    animation-duration: 1s;
+    animation-name: music2 ;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-direction: alternate;  
+}
+#tdiv{
+    animation-duration: 1s;
+    animation-name: music3;
+    
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+    animation-direction: alternate;    
+}
+#fodiv{
+    animation-duration: 1s;
+    animation-name: music4;
+    height: 60px;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-direction: alternate; 
+}
+
+#sidiv{
+    animation-duration: 1s;
+    animation-name: music5;
+    height: 12px;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+    animation-direction: alternate;    
+}
+
+
+
+
+
+

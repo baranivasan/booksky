@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <button onclick="call()">Add</button>
+    <div id="hello"></div> --> 
+     <!-- This for adding the list in the above value. -->
+
+    <!-- <button onclick="change()" id="color">change color</button> -->
+    
+    <h1 id="insert"> Name</h1>
+     
+    <button onclick="call(event)">Barani</button>
+    <button onclick="call(event)">Vignesh</button>
+    <button onclick="call(event)">Ajieth</button>
+
+    <script>
+        
+        // function call(){
+        //     var hello=document.getElementById("hello")
+        //     var head=document.createElement('h1')
+        //     hello.append(head)
+        //     head.textContent="Hello"
+
+        // }
+
+        // function change(){
+        //    var col= document.getElementById("color")
+        //    col.style.backgroundColor="red"
+        // }
+       function call(event){
+          var value1= document.getElementById("insert")
+          value1.textContent=event.target.textContent
+       }
+
+       
+       
+    </script>
+</body>
+</html>

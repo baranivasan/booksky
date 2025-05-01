@@ -1,0 +1,104 @@
+#hdiv{
+    border: 1px solid black;
+    min-height: 100vh;
+    background-color: black;     
+}
+h1{
+    color: white;
+    background-color: black;
+}
+body{
+    margin: 0%;
+}
+#fdiv{
+    border: 1px  black;
+    height: 50vh;
+    display: flex;
+    background-color: rgb(230, 233, 239);
+}
+.aldiv{
+    border: 1px  black;
+    padding: 30px;
+    width: 300px;
+    height: 230px;
+    margin-top:20px ; 
+       
+}
+#sdiv{
+    border: 1px  black;
+    min-height: 47vh;
+    display: flex;
+    background-color: rgb(230, 233, 239);
+}
+.al1div{
+    border: 1px  black;
+    padding: 30px;
+    width: 300px;
+    height: 230px;
+    margin-left: 130px;
+    margin-top: 20px; 
+    padding: 30px;
+}
+
+h1{
+    text-align: center;
+}
+#fpic{
+    background-image: url("../games/IMG-20240227-WA0006.jpg");
+    background-size: 100% 100%;
+}
+#spic{
+    background-image: url("../games/IMG-20240227-WA0007.jpg");
+    background-size: 100% 100%;
+}
+#tpic{
+    background-image: url("../games/IMG-20240227-WA0008.jpg");
+    background-size: 100% 100%;
+}
+#fopic{
+    background-image: url("../games/IMG-20240227-WA0009.jpg");
+    background-size: 100% 100%;
+}
+#fipic{
+    background-image: url("../games/IMG-20240227-WA0010.jpg");
+    background-size: 100% 100%;
+}
+#sipic{
+    background-image: url("../games/IMG-20240227-WA0011.jpg");
+    background-size: 100% 100%;
+}
+.fbox{
+    border: 1px solid black;
+    height: 90%;
+    margin-top: 20px;
+    margin-left: 120px;
+    padding-right: 20px;
+    background-color: white;
+}
+#fpic{
+    margin-left: 20px;
+    
+}
+#spic{
+    margin-left: 20px ;
+}
+#tpic{
+    margin-left: 20px ;
+}
+#fopic{
+    margin-left: 20px;
+}
+#fipic{
+    margin-left: 20px;
+}
+#sipic{
+    margin-left: 20px;
+}
+.sbox{
+    border: 1px solid black;
+    max-height: 70%;
+    margin-top: 10px;
+    margin-left: 120px;
+    padding-right: 20px;
+    background-color: white;
+}

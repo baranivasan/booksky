@@ -1,0 +1,47 @@
+table,td,th{
+    border: 1px solid black;
+    margin: 180px;
+    margin-top: 200px;
+    margin-left: 350px;
+    border-collapse: collapse;
+     padding: 10px;
+     text-align: center;
+     
+    
+}
+th{
+    
+    background-color: orange;
+    width: 400px;
+    
+}
+#u{
+    border-bottom-style: dashed;
+}
+.a{
+    width: 180px;
+    
+}
+#v{
+    border-right: solid;
+}
+
+#i{
+    border-top-style: solid;
+    border-top-color: yellowgreen;
+    
+}
+#s{ 
+    border-top-color: blue;
+    border-top-style: double;
+}
+#s:hover{
+   background-color: blue;
+}
+
+
+
+
+
+
+

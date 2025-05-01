@@ -1,0 +1,47 @@
+#fdiv{
+    border: 1px solid black;
+    height: 150px;
+    width: 150px;
+    margin: 70px;
+    border-radius: 150px;
+    background-color: yellow;
+    animation-name: jump;
+    animation-duration: 3s;
+    position: relative;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+
+}
+
+@keyframes jump {
+    0%{
+        top: 0px;
+        bottom: 0px;
+    }
+    25%
+    {
+        top: 250px;
+        bottom: 250px;
+    }
+    50%{
+        top: 0px;
+        bottom: 250px;
+    }
+    75%{
+        top: 250px;
+        bottom: 0px;
+    }
+    100%{
+        top: 0px;
+        bottom: 0px;
+
+    }
+}
+#sdiv{
+    border: 1px solid black;
+    width: 250px;
+    height: 150px;
+    margin-top: 245px;
+    background-color: red;
+}
