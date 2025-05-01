@@ -11,7 +11,7 @@
  
 .navbar{
     padding: 10px;
-    background-color: #fd6569;
+    background-color: #8F00FF;
     
 }
 
@@ -24,7 +24,7 @@
     padding: 15px;
     width: 20%;
     line-height: 30px;
-    background-color: black;
+    background-color: rgb(46, 35, 35);
     color: white;
     border-radius: 10px;
     margin: 30px;
@@ -36,13 +36,13 @@
     padding: 10px;
     border: none;
     border-radius: 10px;
-    background-color: #fd6569;
+    background-color: #8F00FF;
     margin-top: 10px;
     cursor: pointer;
 }
 
 .add{
-    background-color: #fd6569;
+    background-color: #8F00FF;
     color: black;
     border-radius: 100%;
     padding-top: 20px;
@@ -59,7 +59,7 @@
 
 .add:hover{
   border-style: double;
-  border-color: #fd6569;
+  border-color: #8F00FF;
 }
 
 #delete:hover{
@@ -85,7 +85,7 @@
     margin-left: 500px;
     margin-top: 250px;
     border-radius: 10px;
-    background-color: #fd6569;
+    background-color: #8F00FF;
     color: black;
     padding: 40px;
     display: none;

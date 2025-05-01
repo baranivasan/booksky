@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie premiere</title>
+    <link rel="icon" type="image/x-icon" href="/images/movie.jpg">
+    <link rel="stylesheet" href="book.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="navbar">
+        <h1>Weekend premiere</h1>
+    </div>
+
+    <div class="container">
+        <div class="book-container">
+            <h2>Movie Name</h2>
+            <h4>Protogonist</h4>
+            <h4>Co-Stars</h4>
+            <h5>Supporting Actors</h5>
+            <p>You can add list of movies planned to release for upcoming weekend</p>
+            <button disabled onclick="deletebook(event)" id="delete">Delete</button>
+        </div>
+    
+        
+    </div>
+    
+    <div class="popup" id="popup">
+        <div class="addstory" id="add-items">
+          <h2>Add Movie</h2> 
+          <form >
+            <input type="text" placeholder="Movie title" id="title"> <br>
+            <input type="text" placeholder="Movie Protogonist" id="author"> <br>
+            <input type="text" placeholder="Co-Stars" id="author"> <br>
+            <input type="text" placeholder="Supporting Actors" id="author"> <br>
+            <input placeholder="One Liner about Movie" id="description"></input> <br>
+            <button id="add">Add</button>
+            <button id="cancel">Cancel</button>
+          </form> 
+          
+        </div>
+    </div>
+    <button class="add" id="add-popup">+</button>
+    <script src="movie.js"></script>
+</body>
+</html>
