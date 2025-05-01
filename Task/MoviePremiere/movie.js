@@ -2,7 +2,9 @@ var addbook= document.getElementById("add")
 
 addbook.addEventListener("click", function(event){
     let title=document.getElementById("title").value
-    let author=document.getElementById("author").value
+    let author=document.getElementById("protogonist").value
+    let costars=document.getElementById("co-stars").value
+    let supportingactors=document.getElementById("supporting-actors").value
     let description=document.getElementById("description").value
     let container=document.querySelector(".container")
     
@@ -11,6 +13,8 @@ addbook.addEventListener("click", function(event){
     div.setAttribute("class", "book-container")
     div.innerHTML=`<h2>${title}</h2>
      <h4>${author}</h4>
+          <h4>${costars}</h4>
+               <h4>${supportingactors}</h4>
      <p>${description}</p>
      <button onclick="deletebook(event)" id="delete">Delete</button>`
      container.append(div)
